@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A759D5B7-0690-4693-B365-7827FB3D68FB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>visual1_T3122187.My.MyApplication</StartupObject>
+    <RootNamespace>visual1_T3122187</RootNamespace>
+    <AssemblyName>visual1-T3122187</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>visual1-T3122187.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>visual1-T3122187.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormLatihan7 %281%29.Designer.vb">
+      <DependentUpon>FormLatihan7 %281%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLatihan7 %281%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLatihan1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLatihan1.Designer.vb">
+      <DependentUpon>FormLatihan1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLatihan2.Designer.vb">
+      <DependentUpon>frmLatihan2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLatihan2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLatihan3.Designer.vb">
+      <DependentUpon>frmLatihan3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLatihan3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLatihan4.Designer.vb">
+      <DependentUpon>frmLatihan4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLatihan4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLatihan5.Designer.vb">
+      <DependentUpon>FrmLatihan5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLatihan5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLatihan6 %282%29.Designer.vb">
+      <DependentUpon>FrmLatihan6 %282%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLatihan6 %282%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLatihan6 %283%29.Designer.vb">
+      <DependentUpon>FrmLatihan6 %283%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLatihan6 %283%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLatihan6.Designer.vb">
+      <DependentUpon>FrmLatihan6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLatihan6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLatihan7 %282%29.Designer.vb">
+      <DependentUpon>frmLatihan7 %282%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLatihan7 %282%29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTugas1.Designer.vb">
+      <DependentUpon>FrmTugas1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTugas1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTugas2.Designer.vb">
+      <DependentUpon>FrmTugas2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTugas2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTugas3.Designer.vb">
+      <DependentUpon>FrmTugas3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTugas3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormLatihan7 %281%29.resx">
+      <DependentUpon>FormLatihan7 %281%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLatihan1.resx">
+      <DependentUpon>FormLatihan1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLatihan2.resx">
+      <DependentUpon>frmLatihan2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLatihan3.resx">
+      <DependentUpon>frmLatihan3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLatihan4.resx">
+      <DependentUpon>frmLatihan4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLatihan5.resx">
+      <DependentUpon>FrmLatihan5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLatihan6 %282%29.resx">
+      <DependentUpon>FrmLatihan6 %282%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLatihan6 %283%29.resx">
+      <DependentUpon>FrmLatihan6 %283%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLatihan6.resx">
+      <DependentUpon>FrmLatihan6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLatihan7 %282%29.resx">
+      <DependentUpon>frmLatihan7 %282%29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTugas1.resx">
+      <DependentUpon>FrmTugas1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTugas2.resx">
+      <DependentUpon>FrmTugas2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTugas3.resx">
+      <DependentUpon>FrmTugas3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
